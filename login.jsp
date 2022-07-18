@@ -171,15 +171,15 @@ background-size: cover;" onload="checkSessionKey()"> <!--  Contenedor 100 vw -->
       <div class="row">
 
         <div class="col-6 d-md-none d-lg-block">
-            <div class="row d-none d-sm-block">
-                <div class="col-12 d-none d-sm-block" style="padding: 5em; ">
+            <div class="row d-md-none d-lg-block">
+                <div class="col-12 d-md-none d-lg-block" style="padding: 5em; ">
                     <img src="./images/image_login.png"  class="img-fluid" style="border-radius: 2em;" alt="">
                 </div>
             </div>
             
         </div>
 
-        <div class="col-12 col-md-6" style="padding: 0">
+        <div class="col-12 col-lg-6" style="padding: 0">
 
             <div class="row ">
                 <div class="col-12 container-card d-flex justify-content-center" >
