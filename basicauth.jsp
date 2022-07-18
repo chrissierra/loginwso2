@@ -440,7 +440,10 @@
     }
 
     window.addEventListener('load', (event) =>{
-
+        const queryString = window.location.search;
+        console.log(queryString);   
+        const urlParams = new URLSearchParams(queryString);
+        const env_fsp = urlParams.get('env_fsp')
         localStorage.setItem('env_fsp', env_fsp)
 
    });
