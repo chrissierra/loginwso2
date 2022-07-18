@@ -96,6 +96,11 @@
 </body>
 
 <script>
-    /* window.location.href = '' */
+     
+     window.addEventListener('load', (event) =>{
+
+        window.location.href = localStorage.getItem('env_fsp') + '?retry=true'
+
+   });
 </script>
 </html>
