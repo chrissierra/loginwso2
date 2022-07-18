@@ -94,4 +94,8 @@
         <jsp:include page="includes/footer.jsp"/>
     <% } %>
 </body>
+
+<script>
+    /* window.location.href = '' */
+</script>
 </html>

@@ -438,4 +438,10 @@
         window.location.href = env_fsp
 
     }
+
+    window.addEventListener('load', (event) =>{
+
+        localStorage.setItem('env_fsp', env_fsp)
+
+   });
 </script>
