@@ -98,8 +98,8 @@
 <script>
      
      window.addEventListener('load', (event) =>{
-
-        window.location.href = localStorage.getItem('env_fsp') + '?retry=true'
+        let dominio = new URL(localStorage.getItem('env_fsp'))
+        window.location.href = dominio.origin + '?retry=true'
 
    });
 </script>
