@@ -332,7 +332,7 @@
             >
                 Recupera tu clave
             </a>
-            ?
+            
         </div>
         <% } %>
 
