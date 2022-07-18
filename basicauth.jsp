@@ -309,7 +309,7 @@
     <div class="buttons">
         <% if (isRecoveryEPAvailable) { %>
         <div class="field">
-            <%=AuthenticationEndpointUtil.i18n(resourceBundle, "forgot.username.password")%>
+<!--             <%=AuthenticationEndpointUtil.i18n(resourceBundle, "forgot.username.password")%>
             <% if (!isIdentifierFirstLogin(inputType)) { %>
             <a
                 id="usernameRecoverLink"
@@ -320,7 +320,9 @@
                 <%=AuthenticationEndpointUtil.i18n(resourceBundle, "forgot.username")%>
             </a>
             <%=AuthenticationEndpointUtil.i18n(resourceBundle, "forgot.username.password.or")%>
-            <% } %>
+            <% } %> -->
+
+
             <a
                 id="passwordRecoverLink"
                 tabindex="6"
@@ -328,7 +330,7 @@
                 style="color:#ff5000; cursor:pointer"
                 data-testid="login-page-password-recovery-button"
             >
-                recupera tu clave
+                Recupera tu clave
             </a>
             ?
         </div>
