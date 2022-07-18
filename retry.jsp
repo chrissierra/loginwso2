@@ -49,7 +49,7 @@
         <jsp:include page="includes/header.jsp"/>
     <% } %>
 </head>
-<body class="login-portal layout authentication-portal-layout">
+<body class="login-portal layout authentication-portal-layout" style="display:none">
     <main class="center-segment">
         <div class="ui container medium center aligned middle aligned">
 
