@@ -327,7 +327,7 @@
                 id="passwordRecoverLink"
                 tabindex="6"
                 onclick="redirigirRecuperacionClave()"
-                style="color:#ff5000; cursor:pointer"
+                style="color:#ff5000; cursor:pointer; color: var(--color-fsp)"
                 data-testid="login-page-password-recovery-button"
             >
                 Recupera tu clave
