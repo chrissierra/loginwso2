@@ -364,7 +364,7 @@
 
     <div class="ui divider hidden"></div>
 
-    <div class="cookie-policy-message" data-testid="login-page-policy-messages">
+    <div style="color: var(--color-fsp)" class="cookie-policy-message" data-testid="login-page-policy-messages">
         <%=AuthenticationEndpointUtil.i18n(resourceBundle, "privacy.policy.cookies.short.description")%>
         <a href="cookie_policy.do" target="policy-pane" data-testid="login-page-cookie-policy-link">
             <%=AuthenticationEndpointUtil.i18n(resourceBundle, "privacy.policy.s")%> 
