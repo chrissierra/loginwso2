@@ -219,7 +219,7 @@
                     value=""
                     name="usernameUserInput"
                     tabindex="1"
-                    placeholder="<%=AuthenticationEndpointUtil.i18n(resourceBundle, "username")%>"
+                    placeholder="11222333-K"
                     data-testid="login-page-username-input"
                     required>
                 <i aria-hidden="true" class="user icon"></i>
