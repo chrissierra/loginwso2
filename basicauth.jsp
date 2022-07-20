@@ -364,15 +364,15 @@
 
     <div class="ui divider hidden"></div>
 
-    <div style="color: var(--color-fsp)" class="cookie-policy-message" data-testid="login-page-policy-messages">
+    <div  class="cookie-policy-message" data-testid="login-page-policy-messages">
         <%=AuthenticationEndpointUtil.i18n(resourceBundle, "privacy.policy.cookies.short.description")%>
-        <a href="cookie_policy.do" target="policy-pane" data-testid="login-page-cookie-policy-link">
+        <a style="color: var(--color-fsp)" href="cookie_policy.do" target="policy-pane" data-testid="login-page-cookie-policy-link">
             <%=AuthenticationEndpointUtil.i18n(resourceBundle, "privacy.policy.s")%> 
         </a>
         <%=AuthenticationEndpointUtil.i18n(resourceBundle, "privacy.policy.for.more.details")%>
         <br>
         <%=AuthenticationEndpointUtil.i18n(resourceBundle, "privacy.policy.privacy.short.description")%>
-        <a href="privacy_policy.do" target="policy-pane" data-testid="login-page-privacy-policy-link">
+        <a style="color: var(--color-fsp)" href="privacy_policy.do" target="policy-pane" data-testid="login-page-privacy-policy-link">
             <%=AuthenticationEndpointUtil.i18n(resourceBundle, "privacy.policy.general")%>
         </a>
     </div>
