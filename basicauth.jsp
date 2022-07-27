@@ -445,7 +445,7 @@
         const urlParams = new URLSearchParams(queryString);
         const env_fsp = urlParams.get('env_fsp')
         localStorage.setItem('env_fsp', env_fsp)
-        const url = new URL(env_fsp).host
+        const url = new URL(env_fsp).origin
         localStorage.setItem('env_fsp_host', url)
    });
 </script>
