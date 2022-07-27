@@ -186,7 +186,7 @@ background-size: cover;" onload="checkSessionKey()"> <!--  Contenedor 100 vw -->
 
 
    
-                    <div class="card" style="border-radius: 2em !important;max-height: 80vh;"> <!-- Segmento de formulario, un CARD -->
+                    <div class="card" style="border-radius: 2em !important;max-height: 50vh;"> <!-- Segmento de formulario, un CARD -->
                         <div class="card-body text-center"> 
                         <!--   <div class="ui container medium center aligned middle aligned"> -->
 
