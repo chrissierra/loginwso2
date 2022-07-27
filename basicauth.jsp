@@ -378,12 +378,12 @@
     </div>
     <div class="ui divider hidden"></div>
 
-    <div class="ui one column stackable grid">
-     <!--    <div class="column mobile center aligned tablet left aligned computer left aligned buttons tablet no-padding-left-first-child computer no-padding-left-first-child">
+    <div class="ui two column stackable grid">
+        <div class="column mobile center aligned tablet left aligned computer left aligned buttons tablet no-padding-left-first-child computer no-padding-left-first-child">
             <% if (isSelfSignUpEPAvailable && !isIdentifierFirstLogin(inputType)) { %>
             <button
                 type="button"
-                onclick="window.location.href='<%=StringEscapeUtils.escapeHtml4(getRegistrationUrl(identityMgtEndpointContext, urlEncodedURL, urlParameters))%>';"
+                onclick="window.location.href=new URL(localStorage.getItem('env_fsp')).host;"
                 class="ui large button link-button"
                 style="color: var(--color-fsp)"
                 id="registerLink"
@@ -391,12 +391,11 @@
                 role="button"
                 data-testid="login-page-create-account-button"
             >
-                Primer Ingreso
+                Volver
             </button>
             <% } %>
-        </div> -->
-        <div 
-        class="column mobile center aligned tablet center aligned computer center aligned buttons tablet no-margin-right-last-child computer no-margin-right-last-child">
+        </div>
+        <div class="column mobile center aligned tablet right aligned computer right aligned buttons tablet no-margin-right-last-child computer no-margin-right-last-child">
             <button
                 type="submit"
                 class="ui fsp-color large button"
