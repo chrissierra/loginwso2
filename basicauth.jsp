@@ -395,7 +395,8 @@
             </button>
             <% } %>
         </div> -->
-        <div class="column mobile center aligned tablet right aligned computer right aligned buttons tablet no-margin-right-last-child computer no-margin-right-last-child">
+        <div 
+        class="column mobile center aligned tablet center aligned computer center aligned buttons tablet no-margin-right-last-child computer no-margin-right-last-child">
             <button
                 type="submit"
                 class="ui fsp-color large button"
