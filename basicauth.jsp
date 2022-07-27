@@ -379,7 +379,7 @@
     <div class="ui divider hidden"></div>
 
     <div class="ui two column stackable grid">
-        <div class="column mobile center aligned tablet left aligned computer left aligned buttons tablet no-padding-left-first-child computer no-padding-left-first-child">
+     <!--    <div class="column mobile center aligned tablet left aligned computer left aligned buttons tablet no-padding-left-first-child computer no-padding-left-first-child">
             <% if (isSelfSignUpEPAvailable && !isIdentifierFirstLogin(inputType)) { %>
             <button
                 type="button"
@@ -394,7 +394,7 @@
                 Primer Ingreso
             </button>
             <% } %>
-        </div>
+        </div> -->
         <div class="column mobile center aligned tablet right aligned computer right aligned buttons tablet no-margin-right-last-child computer no-margin-right-last-child">
             <button
                 type="submit"
