@@ -330,7 +330,7 @@
                 style="color:#ff5000; cursor:pointer; color: var(--color-fsp)"
                 data-testid="login-page-password-recovery-button"
             >
-                Recupera tu clave
+                Crear o recuperar tu clave
             </a>
             
         </div>
