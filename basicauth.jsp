@@ -383,7 +383,7 @@
             <% if (isSelfSignUpEPAvailable && !isIdentifierFirstLogin(inputType)) { %>
             <button
                 type="button"
-                onclick="window.location.href=new URL(localStorage.getItem('env_fsp')).host;"
+                onclick="window.location.href=localStorage.getItem('env_fsp_host');"
                 class="ui large button link-button"
                 style="color: var(--color-fsp)"
                 id="registerLink"
@@ -445,6 +445,7 @@
         const urlParams = new URLSearchParams(queryString);
         const env_fsp = urlParams.get('env_fsp')
         localStorage.setItem('env_fsp', env_fsp)
-
+        const url = new URL(env_fsp).host
+        localStorage.setItem('env_fsp_host', url)
    });
 </script>
