@@ -378,7 +378,7 @@
     </div>
     <div class="ui divider hidden"></div>
 
-    <div class="ui two column stackable grid">
+    <div class="ui one column stackable grid">
      <!--    <div class="column mobile center aligned tablet left aligned computer left aligned buttons tablet no-padding-left-first-child computer no-padding-left-first-child">
             <% if (isSelfSignUpEPAvailable && !isIdentifierFirstLogin(inputType)) { %>
             <button
